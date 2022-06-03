@@ -1,7 +1,7 @@
 import React from 'react'
 import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import './Footer.css'
-import { Link } from 'react-router-dom'
+
 
 const Footer = () => {
   return (
@@ -43,7 +43,7 @@ const Footer = () => {
                     <a href='/'><FaFacebook className='icon' /></a>
                     <a href='/'><FaTwitter className='icon' /></a>
                     <a href='/'><FaLinkedin className='icon' /></a>
-                    <Link to='//github.com/Damlek1'><a href='/'><FaGithub className='icon' /></a></Link>
+                    <a href='/'><FaGithub className='icon' /></a>
 
             </div>
         </div>
