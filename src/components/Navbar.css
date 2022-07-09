@@ -3,6 +3,7 @@
     height: 90px;
     border-bottom: 1px solid #eee;
     background: #fff;
+    position: -webkit-sticky;
     position: sticky;
     left: 0;
     top: 0;
